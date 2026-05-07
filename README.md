@@ -1,6 +1,6 @@
 # Pata Feliz 
 
-O **Pata Feliz** é um projeto de website para um petshop especializado em serviços de Banho e Tosa. O site foi desenvolvido para ser moderno, responsivo e apresentar os serviços de forma clara e atrativa para os clientes.
+O **Pata Feliz** é uma landing page para um petshop especializado em serviços de Banho e Tosa. O site foi desenvolvido para ser moderno, responsivo e apresentar os serviços de forma clara e atrativa para os clientes.
 
 ## Descrição
 
