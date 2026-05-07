@@ -9,16 +9,17 @@ $(document).ready(function(){
 
     $(window).on('scroll', function(){
         const header = $('header');
-        const scroLLPosition = $(window).scroLLTop() - header.outerWeight();
+        const scrollPosition = $(window).scrollTop() - header.outerHeight();
         let activeSectionIndex =0;
-        if (scroLLPosition<=0){
+        console.log(scrollPosition);
+        if (scrollPosition<=0){
             header.css('box-shadow', 'none');
         }else{
             header.css('box-shadow', '5px 1px 5px rgba(0,0,0,0.1)');
         }
          sections.each(function(i) {
             const section = $(this);
-            const sectionTop = section.offset().top - 96;
+            const sectionTop = section.offset().top - 90;
             const sectionBottom = sectionTop+ section.outerHeight();
 
             if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {

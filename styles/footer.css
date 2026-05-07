@@ -2,14 +2,24 @@ footer{
     background-color: #F9A814;
 }
 
+
+
 #footer_items {
     display: flex;
+    
     justify-content: space-between;
     padding: 0px 8% 24px 8%;
     align-items: center;
+    
 }
 
 #copyright {
     color: black;
     font-weight: 500;
+}
+
+.social_media_buttons_footer{
+    display: flex;
+    flex-direction: row;
+
 }

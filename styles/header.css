@@ -33,7 +33,7 @@ header{
     font-weight: 600;
 }
 
-.nav-item.activate a {
+.nav-item.active a {
     color: black;
     border-bottom: 3px solid #F9A814;
 }

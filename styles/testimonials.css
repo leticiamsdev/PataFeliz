@@ -1,5 +1,6 @@
 #testimonials {
-    min-height: calc(100vh );
+    /* min-height: calc(100vh ); */
+    scroll-margin-top: 9.375rem;
     display: flex;
     align-items: center;
     justify-content: center;
