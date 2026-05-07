@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Pata Feliz</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+        <img id="nav_logo" src="images/logo.png" alt="Logo Pata Feliz">
+        <ul id="nav_list">
+            <li class="nav-item activate">
+                <a href="#home">Início</a>
+            </li>
+            <li class="nav-item">
+                    <a href="#menu">Banho e Tosa</a>
+            </li>
+            <li class="nav-item">
+                <a href="#testimonials">Avaliações</a>
+            </li>
+        </ul>
+        <button class="btn-default">
+            Agende Banho e Tosa
+        </button>
+        <!--Botao Mobile-->
+        <button id="mobile_btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+            <li class="nav-item">
+                <a href="#home">Início</a>
+            </li>
+            <li class="nav-item">
+                    <a href="#menu">Banho e Tosa</a>
+            </li>
+            <li class="nav-item">
+                <a href="#testimonials">Avaliações</a>
+            </li>
+        </ul>
+         <button class="btn-default">
+            Agende Banho e Tosa
+        </button>
+        </div>
+    </header>
+    <script src="javascript/script.js"></script>
+
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">Seja</br> bem-vindo <span>ao nosso mundo pet</span></h1>
+                <p class="description">A Pata Feliz é um petshop criado para cuidar de cada animal com carinho, respeito e atenção verdadeira. Cada pet faz parte da família e merece viver com saúde, conforto e alegria. </p>
+            </div>
+            <div id="banner">
+                <img src="images/cachorro_borda.png" alt="Cachorro">
+            </div>
+        </section>
+        <section id="menu">
+            <h2 class="section-title">Banho e Tosa</h2>
+            <h3 class="section-subtitle"><span>Etapas</span> do banho</h3>
+            <div id="steps">
+                <div class="step">
+                   
+                    <img class="step-image" src="images/primeiro.png" alt="PrimeiraEtapa">
+                    <h3 class="step-title">Recepção e Avaliação</h3>
+                    <span class="step-description">Recebemos seu pet com muito carinho e analisamos o tipo de pelo e pele para escolher os produtos perfeitos.</span>
+                </div>
+                 <div class="step">
+                   
+                    <img class="step-image" src="images/segundo.png" alt="PrimeiraEtapa">
+                    <h3 class="step-title">Escovação Prévia</h3>
+                    <span class="step-description">Removemos nós e pelos soltos com cuidado, garantindo total conforto e preparando a pelagem para a água.</span>
+                </div>
+                 <div class="step">
+                   
+                    <img class="step-image" src="images/terceiro.png" alt="PrimeiraEtapa">
+                    <h3 class="step-title">Banho Relaxante</h3>
+                    <span class="step-description">Limpeza profunda com água em temperatura agradável, massagem suave e shampoos de alta qualidade.</span>
+                </div>
+                 <div class="step">
+                  
+                    <img class="step-image" src="images/quarto.png" alt="PrimeiraEtapa">
+                    <h3 class="step-title">Hidratação Profunda</h3>
+                    <span class="step-description">Aplicação de máscaras nutritivas e específicas para deixar os fios extremamente macios, brilhantes e saudáveis.</span>
+                </div>
+                 <div class="step">
+                  
+                    <img class="step-image" src="images/quinto.png" alt="PrimeiraEtapa">
+                    <h3 class="step-title">Secagem Cautelosa</h3>
+                    <span class="step-description">Utilizamos equipamentos modernos com controle de temperatura e baixo ruído para não estressar o animal.</span>
+                </div>
+                 <div class="step">
+        
+                    <img class="step-image" src="images/sexto.png" alt="PrimeiraEtapa">
+                    <h3 class="step-title">O Toque Final</h3>
+                    <span class="step-description">Higienização segura dos ouvidos, corte de unhas e aquele perfume especial para voltar lindo para casa!</span>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <img id="testimonials_dog" src="images/banho.jpg" alt="">
+            <div id="testimonials_content">
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+            
+            <div id="feedbacks">
+                 <div class="feedback">
+                        <img src="images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p class="feedback-author">
+                                Dona do AuAu
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                               Atendimento impecável! Meu cachorro sempre voltava estressado de outros lugares, mas aqui ele saiu super tranquilo e muito cheiroso. Recomendo de olhos fechados!
+                            </p>
+                        </div>
+                    </div>
+                                <div class="feedback">
+                        <img src="images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p class="feedback-author">
+                                 Dona do AuAu
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Atendimento impecável! Meu cachorro sempre voltava estressado de outros lugares, mas aqui ele saiu super tranquilo e muito cheiroso. Recomendo de olhos fechados!
+                            </p>
+                        </div>
+                    </div>
+            </div>
+            <button class="btn-default">
+                Ver mais avaliações
+            </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="images/wave.svg">
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2026 Pata Feliz
+            </span>
+        </div>
+         <!-- <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div> -->
+    </footer>
+</body>
+</html>
